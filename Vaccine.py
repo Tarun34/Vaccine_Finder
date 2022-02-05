@@ -1,5 +1,6 @@
 import datetime
 import json
+import urllib.request
 import numpy as np
 import requests
 import pandas as pd
@@ -253,5 +254,5 @@ url1="https://forms.gle/mZyiNEobMqqyqNy67"
 col1,col2,col3 = st.columns([1.65,1,1])
 with col2:
     if st.button("Feedback Form"):
-        webbrowser.open_new_tab(url1)
+        urllib.request.urlopen("https://forms.gle/mZyiNEobMqqyqNy67")
 st.error("These Images are taken from Cowin Website for College Project and Not For Commercial Use")
