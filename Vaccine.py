@@ -47,9 +47,9 @@ def app():
     with col2:
         st.image("Capture.JPG")
     with col3:
-        st.image("1.jpg")
+        st.image("1.JPG")
     with col4:
-        st.image("2.jpg")
+        st.image("2.JPG")
 
     col1, col2 = st.beta_columns([27,17])
     with col1:
