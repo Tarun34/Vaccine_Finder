@@ -231,7 +231,6 @@ def app():
         st.markdown("<h2 class='first'><b> Share Your Vaccination Status </b><h2>", unsafe_allow_html=True)
         st.markdown("<h4 style='color:Grey'>Be a Fighter! If you are fully or partially vaccinated, you can now share your vaccination status in your social circle. Let's encourage our friends and followers in joining India's battle against COVID-19.<h4>",unsafe_allow_html=True)
         if st.button("Share your Status"):
-            st.balloons()
             webbrowser.open_new_tab("https://www.instagram.com/accounts/login/")
 
     with col3:
