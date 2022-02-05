@@ -15,7 +15,7 @@ def app():
         unsafe_allow_html=True)
     st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">',unsafe_allow_html=True)
     st.markdown("""
-         <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#3498DB; font-color:white">
+         <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#3498DB; color:white">
          <a class="navbar-brand fa fa-stethoscope" style="font-size:30px" href="http://localhost:8501/" target="_blank"> &#xf0f1; Sanjeevnam </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
