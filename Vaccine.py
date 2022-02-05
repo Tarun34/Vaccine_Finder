@@ -249,7 +249,7 @@ st.header("")
 st.header("")
 st.markdown("<h5><center> Made By Tarun Kumar </center></h5>",unsafe_allow_html=True)
 st.markdown("<h5><center> For Further Info Drop Mail At : Tarun_063@yahoo.com </center></h5>",unsafe_allow_html=True)
-url1="https://forms.gle/LV7kVB84fqVMwYNeA"
+url1="https://forms.gle/mZyiNEobMqqyqNy67"
 col1,col2,col3 = st.columns([1.65,1,1])
 with col2:
     if st.button("Feedback Form"):
