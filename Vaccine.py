@@ -51,7 +51,7 @@ def app():
     with col4:
         st.image("2.JPG")
 
-    col1, col2 = st.beta_columns([27,17])
+    col1, col2 = st.columns([27,17])
     with col1:
         st.header("Vaccination by Age")
         im = Image.open("ratio.png")
@@ -64,10 +64,10 @@ def app():
         size=(450,200)
         im=im.resize(size)
         st.image(im)
-    col1,col2,col3 = st.beta_columns([3,7,2])
+    col1,col2,col3 = st.columns([3,7,2])
     with col2:
         st.header("Please tap on the Vaccine button to Book the slot")
-    col1, col2, col3 = st.beta_columns([7,6,3])
+    col1, col2, col3 = st.columns([7,6,3])
     with col2:
         url ="https://selfregistration.cowin.gov.in/"
         if st.button("Book your Slot"):
