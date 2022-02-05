@@ -45,7 +45,7 @@ def app():
     st.video("impvaccine.mp4",format="video/ogg")
     col2, col3, col4 = st.beta_columns([4, 4, 4])
     with col2:
-        st.image("capture.jpg")
+        st.image("Capture.JPG")
     with col3:
         st.image("1.jpg")
     with col4:
